@@ -1,0 +1,25 @@
+{
+  "firstName": "Tom",
+  "lastName": "Clarke",
+  "hobbies": [
+    "sailing",
+    "swimming",
+    "hillwalking",
+    "rugby"
+  ],
+  "age": 40,
+  "children": [
+    {
+      "firstName": "Cian",
+      "age": 12
+    },
+    {
+      "firstName": "Conor",
+      "age": 13
+    },
+    {
+      "firstName": "Orla",
+      "age": 1
+    }
+  ]
+}

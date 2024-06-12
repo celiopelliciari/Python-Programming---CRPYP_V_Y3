@@ -1,0 +1,26 @@
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/7$ chmod +x error_handling.py
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/7$ ./error_handling.py
+<class 'str'>, 1. <class 'int'>, 2. <class 'int'>, 3. <class 'str'>, 4. <class 'str'>, A. <class 'int'>, 5. <class 'int'>, 6. <class 'str'>, 7.
+
+<class 'str'>, 1 now <class 'int'>, 1
+<class 'int'>, 2 now <class 'int'>, 2
+<class 'int'>, 3 now <class 'int'>, 3
+<class 'str'>, 4 now <class 'int'>, 4
+<class 'str'>, A now cannot be converted to an integer
+<class 'int'>, 5 now <class 'int'>, 5
+<class 'int'>, 6 now <class 'int'>, 6
+<class 'str'>, 7 now <class 'int'>, 7
+
+
+<class 'int'> 1 now <class 'int'> 1
+<class 'int'> 2 now <class 'int'> 2
+<class 'int'> 3 now <class 'int'> 3
+<class 'int'> 4 now <class 'int'> 4
+Traceback (most recent call last):
+  File "/home/ubuntu/Python CourseWork/ClassWork/Exercises/7/./error_handling.py", line 79, in <module>
+    main()
+  File "/home/ubuntu/Python CourseWork/ClassWork/Exercises/7/./error_handling.py", line 75, in main
+    convert(_tuple)
+  File "/home/ubuntu/Python CourseWork/ClassWork/Exercises/7/./error_handling.py", line 62, in convert
+    converted_value = int(item)
+ValueError: invalid literal for int() with base 10: 'A'

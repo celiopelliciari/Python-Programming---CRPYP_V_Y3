@@ -1,0 +1,9 @@
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/10$ chmod +x Tkinter.py
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/10$ ./Tkinter.py
+Student name:          Celio Pelliciari
+Enjoying the course:   It is very good
+Sections of interest:  ['Basics', 'Functions', 'Files & Db']
+Recommend this course: Yes
+Comments:              Great.
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/10$ 
+

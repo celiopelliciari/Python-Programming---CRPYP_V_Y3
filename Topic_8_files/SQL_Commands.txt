@@ -1,0 +1,18 @@
+.tables
+CREATE TABLE IF NOT EXISTS class_list (ref_no INTEGER PRIMARY KEY, fname TEXT, sname TEXT, number INTEGER);
+.tables
+INSERT INTO class_list (ref_no, fname, sname, number) VALUES (0, 'Tom', 'Ryan', 111111);
+INSERT INTO class_list (ref_no, fname, sname, number) VALUES (1, 'Mary', 'Murphy', 222222);
+INSERT INTO class_list (ref_no, fname, sname, number) VALUES (2, 'Ada', 'Lovelace', 333333);
+INSERT INTO class_list (ref_no, fname, sname, number) VALUES (3, 'Charles', 'Babbage', 444444);
+SELECT * FROM class_list;
+UPDATE class_list SET fname = 'Ethan' WHERE number LIKE 333333;
+UPDATE class_list SET sname = 'Reilly' WHERE ref_no LIKE 2;
+SELECT * FROM class_list;
+DELETE FROM class_list WHERE ref_no LIKE 3;
+SELECT * FROM class_list;
+DELETE FROM class_list;
+SELECT * FROM class_list;
+.quit
+
+

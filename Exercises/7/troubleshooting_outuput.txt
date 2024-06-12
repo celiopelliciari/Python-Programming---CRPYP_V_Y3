@@ -1,0 +1,50 @@
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/7$ chmod +x troubleshooting.py
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/7$ ./troubleshooting.py
+
+  ~$ ./troubleshooting.py
+
+  Program to translate GPA to Irish academic grades
+
+    0 - 4    GPA value between 0 and 4
+    exit     Quit the program
+    help     Instruction on how to use this program
+    quit     Quit the program
+
+Enter GPA score (0-4): 2
+GPA        : 2.0
+Presentage : 50%
+Grade      : Lower Second Class (2.2) Honors
+
+Enter GPA score (0-4): 3
+GPA        : 3.0
+Presentage : 75%
+Grade      : First Class Honours
+
+Enter GPA score (0-4): 4
+GPA        : 4.0
+Presentage : 100%
+Grade      : First Class Honours
+
+Enter GPA score (0-4): 5
+
+Maximum GPA in 4.0, try again
+
+Enter GPA score (0-4): three
+Invalid GPA input: Please enter a float or integer between 0 and 4
+
+Enter GPA score (0-4): help
+
+  ~$ ./troubleshooting.py
+
+  Program to translate GPA to Irish academic grades
+
+    0 - 4    GPA value between 0 and 4
+    exit     Quit the program
+    help     Instruction on how to use this program
+    quit     Quit the program
+
+Enter GPA score (0-4): quit
+
+   Goodbye ...
+
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/7$

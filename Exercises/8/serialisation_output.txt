@@ -1,0 +1,7 @@
+﻿(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/8$ chmod +x serialisation.py
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/8$ ./serialisation.py
+Reading the network.yaml YAML file
+ens192: ['192.168.0.2/24']
+ens224: ['192.168.1.2/24']
+Serialising data to network.json
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises/8$ 

@@ -1,0 +1,7 @@
+﻿(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises$ chmod +x call_my_module.py
+(.venv) ubuntu@ubuntu-VirtualBox:~/Python CourseWork/ClassWork/Exercises$ ./call_my_module.py
+CALL: The product of the range from 1 .. 5 = 120
+CALL: The product of the range from 2 .. 5 = 120
+CALL: The product of the range from 3 .. 5 = 60
+CALL: The product of the range from 4 .. 5 = 20
+CALL: The product of the range from 5 .. 5 = 5
